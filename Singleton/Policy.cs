@@ -10,7 +10,7 @@
             }
         }
 
-        public Policy()
+        private Policy()
         {
 
         }
