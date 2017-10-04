@@ -6,8 +6,7 @@ namespace Singleton
     {
         static void Main(string[] args)
         {
-            Policy Policy = new Policy();
-            string insuredName = Policy.GetInsuredName();
+            string insuredName = Policy.Instance.GetInsuredName();
 
             Console.WriteLine(insuredName);
         }
