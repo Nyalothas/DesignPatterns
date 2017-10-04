@@ -2,13 +2,10 @@
 {
     public class Policy
     {
-        private static Policy _instance;
+        private static readonly Policy _instance = new Policy();
         public static Policy Instance {
             get
             {
-                if(_instance == null)
-                 _instance = new Policy();
-
                 return _instance;
             }
         }
