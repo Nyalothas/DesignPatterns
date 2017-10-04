@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Singleton
 {
@@ -10,6 +6,10 @@ namespace Singleton
     {
         static void Main(string[] args)
         {
+            Policy Policy = new Policy();
+            string insuredName = Policy.GetInsuredName();
+
+            Console.WriteLine(insuredName);
         }
     }
 }
