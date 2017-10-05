@@ -12,7 +12,6 @@ namespace Decorator.Decorator
 
         public override double GetCarPrice() => _car.GetCarPrice();
 
-
         public override string GetDescription() => _car.GetDescription();
     }
 }

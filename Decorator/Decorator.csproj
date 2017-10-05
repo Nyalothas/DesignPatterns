@@ -43,6 +43,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Component\Car.cs" />
+    <Compile Include="ConcreteComponent\CompactCar.cs" />
+    <Compile Include="ConcreteComponent\FullSizeCar.cs" />
     <Compile Include="Decorator\CarDecorator.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
