@@ -9,10 +9,12 @@
                 return _instance;
             }
         }
-
+        private static int counter = 0;
+        // A private constructor to restrict the object creation from outside
         private Policy()
         {
-
+            counter++;
+            System.Console.WriteLine("Policy Counter Value " + counter.ToString());
         }
 
         public int Id { get; set; }
